@@ -1,0 +1,15 @@
+:root {
+    --font-sans-serif: Raleway, sans-serif;
+    --font-serif: serif;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    font-family: "Raleway", sans-serif;
+}
