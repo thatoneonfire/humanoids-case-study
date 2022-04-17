@@ -58,13 +58,16 @@ img {
 .footer {
   background-color: #222222;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 25px;
 }
 
 .footer__title {
   color:#999999;
-
+  font-size: 100%;
+  margin-left: 35px;
+  margin-bottom: 0;
 }
 
 .footer__list {
@@ -77,4 +80,8 @@ img {
 .footer__list a {
   text-decoration: none;
   color:#999999;
+}
+.footer__list a:hover {
+  color:#ffbb00;
+  text-decoration: underline;
 }
