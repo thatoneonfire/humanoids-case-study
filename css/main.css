@@ -2,6 +2,15 @@
     --font-sans-serif: Raleway, sans-serif;
     --font-sans-serif-2: Open Sans, sans-serif;
     --font-serif: serif;
+    --color-white: #ffff; 
+    --color-black: #0000;
+    --color-dark-gray: #777777;
+    --color-medium-gray: #999999;
+    --color-light-gray: #cdcdcd;
+    --color-lighest-gray: #E8E9EC;
+    --color-yellow: #ffbb00;
+    --color-azure: #315A9D;
+    --color-sky-blue: #25AFF4;
 }
 
 html {
@@ -13,7 +22,8 @@ html {
   
 body {
     font-family: "Raleway", sans-serif;
-    font-weight: 900;
+    max-width: 1300px;
+    margin: auto;
 }
 
 img {
@@ -25,6 +35,26 @@ img {
 }
 
 .component__image, .component__code {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   overflow-x: auto;
+}
+
+.section__date {
+  font-weight: 700; 
+  padding-left: 10px;
+  color: #777777;
+}
+
+/* Footer */
+
+.footer__title {
+  color:#999999;
+
+}
+.footer__list {
+  font-family: Open Sans, sans-serif;
+  color:#999999;
+  list-style: none;
+  line-height: 1.5;
+  font-size: 80%;
 }
