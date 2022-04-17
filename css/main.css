@@ -2,8 +2,8 @@
     --font-sans-serif: Raleway, sans-serif;
     --font-sans-serif-2: Open Sans, sans-serif;
     --font-serif: serif;
-    --color-white: #ffff; 
-    --color-black: #0000;
+    --color-white: #ffffff; 
+    --color-black: #000000;
     --color-soft-black: #222222;
     --color-dark-gray: #777777;
     --color-medium-gray: #999999;
@@ -51,6 +51,15 @@ img {
   font-weight: 700; 
   padding-left: 10px;
   color: #777777;
+}
+
+.section__header {
+  background-color: #999999;
+  color: #ffffff;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+
 }
 
 /* Footer */
