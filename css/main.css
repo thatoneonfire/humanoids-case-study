@@ -17,14 +17,14 @@ body {
 }
 
 img {
-  display: block; 
   max-width: 100%;
+  display: block;
 }
 .component img {
   max-width: initial;
-  overflow-x: auto;
 }
 
 .component__image, .component__code {
-  border: 1px solid gray;
+  border: 1px solid #ccc;
+  overflow-x: auto;
 }
