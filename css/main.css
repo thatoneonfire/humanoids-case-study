@@ -64,7 +64,7 @@ img {
 
 .news__body {
   font-family: Open Sans, sans-serif;
-  
+
 }
 
 /* Footer */
@@ -72,9 +72,10 @@ img {
 .footer {
   background-color: #222222;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 25px;
+  padding: 25px; 
+  max-width: 700px;
 }
 
 .footer__title {
