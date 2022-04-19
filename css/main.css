@@ -34,6 +34,7 @@ img {
 }
 .component img {
   max-width: initial;
+  margin-top: 2px;
 }
 
 .component__image, .component__code {
@@ -67,6 +68,20 @@ img {
 
 }
 
+/* Email Section */
+
+.info__title {
+  color: #ffffff;
+  background-color: #000000;
+  text-transform: uppercase;
+
+}
+
+.info__tagline {
+  color: #E8E9EC;
+  background-color: #000000;
+  font-family: Open Sans, sans-serif;
+}
 /* Footer */
 
 .footer {
