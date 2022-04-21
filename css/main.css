@@ -27,6 +27,12 @@ body {
     max-width: 1300px;
     margin: auto;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Footer */
 
 img {
@@ -74,31 +80,60 @@ img {
 
 .fa-magnifying-glass {
   background-color: #000000;
+  font-size: 120%;
   padding: 10px;
+
 }
 
 .fa-facebook-f,
 .fa-twitter,
 .fa-instagram {
-  border-radius: 7px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
 }
 
 .fa-facebook-f {
   background-color: #315A9D;
-  padding: 12px;
-  padding-right: 15px;
+  padding: 10px;
+  padding-right: 12px;
 }
 
 .fa-twitter {
   background-color: #25AFF4;
-  padding: 12px;
+  padding: 10px;
 }
 
 .fa-instagram {
   background-color: #507FA3;
-  padding: 12px; 
+  padding: 10px; 
 }
 
+.button__details,
+.button__subscribe {
+  font-family: Open Sans, sans-serif; 
+  background-color: #ffbb00;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+  
+}
+.button__details {
+  font-size: 70%;
+  padding: 8px 12px;
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+}
+.button__subscribe {
+  padding: 15px 20px
+}
+.fa-paper-plane {
+  padding-left: 15px;
+}
 /* Email Section */
 
 .info {
@@ -170,7 +205,6 @@ img {
 } */
 
 .fa-brands, .fa-solid {
-  font-size: 150%;
   color: #ffffff;
 }
 
