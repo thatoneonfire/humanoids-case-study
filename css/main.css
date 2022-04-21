@@ -68,7 +68,7 @@ img {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 175%;
-  display: inline-block;
+
 }
 
 .news__body {
@@ -143,17 +143,19 @@ img {
   text-decoration: none;
   list-style: none;
 }
-.nav__item  {
-  color: #999999;
+.nav__item a {
+  color: #cdcdcd;
   background-color: #000000;
   text-transform: uppercase;
   font-weight: 700;
-  padding-right: 10px;
+  font-size: 90%;
+  padding: 20px;
 }
 
-.nav-item a {
-  
+#header__glass {
+  padding: 0;
 }
+
 
 /* Email Section */
 
@@ -175,6 +177,11 @@ img {
   color: #E8E9EC;
   font-family: Open Sans, sans-serif;
   font-size: 90%;
+}
+
+/* Most Read */
+.section__header--read {
+  background-color: #ffbb00;
 }
 /* Footer */
 
