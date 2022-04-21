@@ -134,6 +134,27 @@ img {
 .fa-paper-plane {
   padding-left: 15px;
 }
+
+/* Header */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.nav__item  {
+  color: #999999;
+  background-color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.nav-item a {
+  
+}
+
 /* Email Section */
 
 .info {
