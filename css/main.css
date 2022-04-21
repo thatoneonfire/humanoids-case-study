@@ -12,6 +12,7 @@
     --color-yellow: #ffbb00;
     --color-azure: #315A9D;
     --color-sky-blue: #25AFF4;
+    --color-wedgewood: #507FA3;
 }
 
 html {
@@ -67,6 +68,35 @@ img {
 .news__body {
   font-family: Open Sans, sans-serif;
 
+}
+
+/* Buttons/Special Items */
+
+.fa-magnifying-glass {
+  background-color: #000000;
+  padding: 10px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  border-radius: 7px;
+}
+
+.fa-facebook-f {
+  background-color: #315A9D;
+  padding: 12px;
+  padding-right: 15px;
+}
+
+.fa-twitter {
+  background-color: #25AFF4;
+  padding: 12px;
+}
+
+.fa-instagram {
+  background-color: #507FA3;
+  padding: 12px; 
 }
 
 /* Email Section */
@@ -141,8 +171,6 @@ img {
 
 .fa-brands, .fa-solid {
   font-size: 150%;
-  background-color: #ffbb00;
-  padding: 15px;
   color: #ffffff;
 }
 
