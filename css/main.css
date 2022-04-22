@@ -159,7 +159,8 @@ img {
 /* New and Upcoming Releases */
 
 .image-gallery {
-  width: 50%;
+  display: block;
+  width: 100%;
   margin: auto; 
 }
 .new__title {
@@ -213,8 +214,17 @@ img {
 
 
 /* Most Read */
-.section__header--read {
+#read {
   background-color: #ffbb00;
+}
+
+.image__most-read {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.most__grid {
+  display: grid;
 }
 /* Footer */
 
