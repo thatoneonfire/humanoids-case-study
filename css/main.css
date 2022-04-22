@@ -156,7 +156,18 @@ img {
   padding: 0;
 }
 
+/* New and Upcoming Releases */
 
+.image-gallery {
+  display: block;
+  width: 100%;
+  margin: auto; 
+}
+.new__title {
+  font-weight: 700; 
+  padding-left: 10px;
+  color: #777777;
+}
 /* Email Section */
 
 .info {
