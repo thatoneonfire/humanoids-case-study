@@ -73,7 +73,7 @@ img {
 
 .news__body {
   font-family: Open Sans, sans-serif;
-
+  margin-top: 5px;
 }
 
 /* Buttons/Special Items */
@@ -226,6 +226,7 @@ img {
 
 .new__p {
   font-family: Open Sans, sans-serif;
+  
 }
 /* Email Section */
 
@@ -285,12 +286,16 @@ img {
 
 /* News  */
 
+/* .news__flex {
+  display: flex;
+  flex-direction: column;
+} */ 
+
 .news__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
-
 .image__news {
   display: block;
   width: 100%;
@@ -298,9 +303,11 @@ img {
 }
 .news__title {
   font-weight: 700; 
-  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
   color: #777777;
 }
+
 
 
 
