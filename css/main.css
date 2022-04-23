@@ -230,10 +230,9 @@ img {
 /* Email Section */
 
 .info {
-  background-color: #000000;
   text-align: center;
   display: inline-block;
-  padding: 15px 275px;
+
 }
 
 .info__title {
@@ -254,6 +253,7 @@ img {
 
 .email__flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .form__email {
@@ -279,7 +279,8 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 .most__binder {
-
+  display: flex;
+  flex-direction: column;
 }
 
 /* News  */
