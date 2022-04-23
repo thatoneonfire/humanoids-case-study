@@ -116,13 +116,14 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 4px;
   display: inline-block;
   
 }
 .button__details {
-  font-size: 70%;
-  padding: 8px 12px;
+  font-size: 65%;
+  padding: 7px 14px;
+  margin-left: 5px;
 }
 
 .fa-arrow-right {
@@ -137,24 +138,55 @@ img {
 
 /* Header */
 
+.container__black {
+  background-color: #000000;
+}
+
+.image__header {
+  width: 100%;
+  margin: auto;
+}
+
 .main-nav {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   text-decoration: none;
   list-style: none;
+  float: left;
 }
 .nav__item a {
   color: #cdcdcd;
-  background-color: #000000;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 90%;
-  padding: 20px;
+  padding-right: 5px;
 }
 
+.links__flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links__flex a {
+  padding-right: 10px;
+}
 #header__glass {
   padding: 0;
 }
+
+#button__white  {
+  background-color: #ffffff;
+}
+#button__white a {
+  color: #000000;
+  font-size: 90%;
+  
+}
+#icon__black {
+  color: #000000;
+}
+
 
 /* New and Upcoming Releases */
 
