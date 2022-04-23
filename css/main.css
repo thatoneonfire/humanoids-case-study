@@ -150,9 +150,10 @@ img {
 .main-nav {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   text-decoration: none;
   list-style: none;
-  float: left;
+
 }
 .nav__item a {
   color: #cdcdcd;
@@ -177,11 +178,12 @@ img {
 
 #button__white  {
   background-color: #ffffff;
+  
 }
 #button__white a {
   color: #000000;
   font-size: 90%;
-  
+  padding: -5px -5px;
 }
 #icon__black {
   color: #000000;
@@ -195,18 +197,26 @@ img {
   width: 100%;
   margin: auto; 
 }
-.new__title {
+.new__title,
+.upcoming__title {
   font-weight: 700; 
   padding-left: 10px;
-  color: #777777;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.new__title {
+  color: #777777;
+}
+.upcoming__title {
+  color: #ffbb00;
 }
 
 .new__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  object-fit: fill;
 }
 
 .new__flex {
@@ -230,20 +240,27 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 200%;
-  margin-bottom: 0;
+  font-size: 180%;
+  margin-bottom: 20px;
 }
 
 .info__tagline {
   color: #cdcdcd;
   font-family: Open Sans, sans-serif;
-  font-size: 90%;
+  font-size: 85%;
   padding-bottom: 25px;
   border-bottom: 1px solid #777777;
 }
 
 .email__flex {
   display: flex;
+}
+
+.form__email {
+  background-color: #777777;
+  color: #ffffff;
+  font-family: Open Sans, sans serif;
+  padding-right: 10px;
 }
 
 
