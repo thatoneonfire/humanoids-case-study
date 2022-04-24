@@ -142,25 +142,28 @@ img {
   background-color: #000000;
 }
 
-.image__header {
-  width: 100%;
-  margin: auto;
-}
+
 
 .main-nav {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   text-decoration: none;
   list-style: none;
-
+  
 }
 .nav__item a {
   color: #cdcdcd;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 90%;
-  padding-right: 5px;
+  margin: 0 10px;
+}
+
+.fa-caret-down {
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .links__flex {
@@ -176,14 +179,22 @@ img {
   padding: 0;
 }
 
-#button__white  {
+.button__subscribe--white {
+  font-family: Open Sans, sans-serif; 
   background-color: #ffffff;
-  
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 10px;
 }
-#button__white a {
+
+.button__subscribe--white a {
   color: #000000;
   font-size: 90%;
-  padding: -5px -5px;
+
 }
 #icon__black {
   color: #000000;
@@ -191,6 +202,10 @@ img {
 
 
 /* New and Upcoming Releases */
+
+.new__container {
+  max-width: 900px;
+}
 
 .image-gallery {
   display: block;
