@@ -158,9 +158,12 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   flex: 1 1 auto;
+  flex-wrap: wrap;
   text-decoration: none;
   list-style: none;
-
+}
+.main-nav i {
+  color: #cdcdcd;
 }
 .nav__item a {
   color: #cdcdcd;
@@ -191,6 +194,7 @@ img {
 }
 #header__glass {
   padding: 0;
+  color: #ffffff;
 }
 
 .button__subscribe--white {
