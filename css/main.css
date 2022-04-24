@@ -39,6 +39,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  
 }
 .component img {
   max-width: initial;
@@ -148,22 +149,24 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex: 1 1 auto;
   text-decoration: none;
   list-style: none;
-  
+
 }
 .nav__item a {
   color: #cdcdcd;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 90%;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 .fa-caret-down {
   margin-bottom: 3px;
   margin-left: 5px;
   margin-right: 5px;
+  color: #535353;
 }
 
 .links__flex {
@@ -226,11 +229,19 @@ img {
 .upcoming__title {
   color: #ffbb00;
 }
+.visual-fix-container {
 
+}
 .new__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  justify-content: end;
+  align-items: start;
+  overflow: hidden;
+}
+
+.new__grid > * {
   object-fit: fill;
 }
 
@@ -243,7 +254,9 @@ img {
   font-weight: normal;
   text-transform: none;
 }
-
+.side-button a:hover {
+  color: #535353;
+}
 .fa-play {
 font-size: 14px;
  margin-left: 5px;
@@ -304,7 +317,10 @@ font-size: 14px;
 }
 .most__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  justify-content: end;
+  align-items: end;
 
 }
 .most__binder {
