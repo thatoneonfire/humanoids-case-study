@@ -219,14 +219,19 @@ img {
   object-fit: fill;
 }
 
-.new__flex {
-  display: flex; 
-  flex-direction: column;
+.side-button {
+  font-family: Open Sans, sans-serif;
+  display: block;
+  float: right;
+  margin-top: 10px;
+  font-size: 60%;
+  font-weight: normal;
+  text-transform: none;
 }
 
-.new__p {
-  font-family: Open Sans, sans-serif;
-  
+.fa-play {
+font-size: 14px;
+ margin-left: 5px;
 }
 /* Email Section */
 
@@ -350,7 +355,7 @@ img {
 .catalog__button {
   background-color: #777777;
   display: inline-block;
-  padding: 25px;
+  padding: 15px;
 }
 
 .catalog__header {
@@ -360,14 +365,19 @@ img {
   font-size: 175%;
   font-weight: 900;
 }
-
-.catalog__button--long {
+.content__gray {
   background-color: #777777;
-  display: inline-block;
   padding: 25px;
+}
+.catalog__button--long {
+  display: inline-block;
   display: flex;
 } 
+.test {
+  display: flex;
+  flex-direction: column;
 
+}
 .fa-brands, .fa-solid {
   color: #ffffff;
 }
@@ -381,7 +391,9 @@ img {
 .fa-arrow-down-a-z,
 #catalog-glass {
   background-color: #ffbb00;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 20px;
 }
 
 .catalog__title {
@@ -389,4 +401,5 @@ img {
   text-transform: uppercase;
   font-size: 80%;
   text-align: center;
+  font-weight: 600;
 }
