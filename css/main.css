@@ -124,7 +124,6 @@ img {
 .button__details {
   font-size: 65%;
   padding: 7px 14px;
-  margin-left: 5px;
 }
 
 .fa-arrow-right {
@@ -236,6 +235,11 @@ font-size: 14px;
 }
 /* Email Section */
 
+.container__black--short {
+  background-color: #000000;
+  max-width: 925px;
+}
+
 .info {
   text-align: center;
   display: inline-block;
@@ -275,7 +279,9 @@ font-size: 14px;
 #read {
   background-color: #ffbb00;
 }
-
+.most__container {
+  max-width: 900px;
+}
 .image__most-read {
   display: block;
   width: 100%;
@@ -284,11 +290,14 @@ font-size: 14px;
 .most__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
 }
 .most__binder {
   display: flex;
   flex-direction: column;
 }
+
+
 
 /* News  */
 
@@ -296,7 +305,9 @@ font-size: 14px;
   display: flex;
   flex-direction: column;
 } */ 
-
+.news__container {
+  max-width: 900px;
+}
 .news__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -369,6 +380,7 @@ font-size: 14px;
   text-align: center;
   font-size: 175%;
   font-weight: 900;
+  margin-bottom: 20px;
 }
 
 .catalog__button--long {
