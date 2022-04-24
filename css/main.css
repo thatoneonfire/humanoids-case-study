@@ -5,6 +5,7 @@
     --color-white: #ffffff; 
     --color-black: #000000;
     --color-soft-black: #222222;
+    --color-darkest-gray: #535353;
     --color-dark-gray: #777777;
     --color-medium-gray: #999999;
     --color-light-gray: #cdcdcd;
@@ -353,11 +354,15 @@ font-size: 14px;
 /* Catalog */
 
 .catalog__button {
-  background-color: #777777;
+  background-color: #535353;
   display: inline-block;
   padding: 15px;
 }
-
+.content__gray {
+  background-color: #535353;
+  padding: 25px;
+  max-width: 950px;
+}
 .catalog__header {
   color: #ffffff;
   text-transform: uppercase;
@@ -365,18 +370,17 @@ font-size: 14px;
   font-size: 175%;
   font-weight: 900;
 }
-.content__gray {
-  background-color: #777777;
-  padding: 25px;
-}
+
 .catalog__button--long {
   display: inline-block;
   display: flex;
+  justify-content: space-around;
+  
 } 
-.test {
+.pair__button {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
 }
 .fa-brands, .fa-solid {
   color: #ffffff;
@@ -402,4 +406,5 @@ font-size: 14px;
   font-size: 80%;
   text-align: center;
   font-weight: 600;
+  margin-top: 8px;
 }
