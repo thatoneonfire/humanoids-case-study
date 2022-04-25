@@ -489,3 +489,10 @@ font-size: 14px;
   font-weight: 600;
   margin-top: 8px;
 }
+
+/* Home Page */ 
+.home-page__footer {
+  padding: 10px 0;
+  border-top: 7px solid #ffbb00;
+
+}
