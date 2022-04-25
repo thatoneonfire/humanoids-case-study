@@ -74,7 +74,7 @@ img {
 }
 
 .news__body {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 5px;
 }
 
@@ -113,7 +113,7 @@ img {
 
 .button__details,
 .button__subscribe {
-  font-family: Open Sans, sans-serif; 
+  font-family: "Open Sans", sans-serif; 
   background-color: #ffbb00;
   color: #ffffff;
   text-transform: uppercase;
@@ -146,6 +146,7 @@ img {
 #image__header {
   max-width: 350px;
   margin-top: 50px;
+  margin-left: 10px;
 }
 
 .top-nav {
@@ -161,6 +162,7 @@ img {
   flex-wrap: wrap;
   text-decoration: none;
   list-style: none;
+  margin-top: 85px;
 }
 .main-nav i {
   color: #cdcdcd;
@@ -171,6 +173,7 @@ img {
   font-weight: 700;
   font-size: 90%;
   padding: 0 10px;
+  
   text-decoration: none;
   list-style: none;
 }
@@ -198,7 +201,7 @@ img {
 }
 
 .button__subscribe--white {
-  font-family: Open Sans, sans-serif; 
+  font-family: "Open Sans", sans-serif; 
   background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
@@ -225,6 +228,11 @@ img {
   max-width: 900px;
 }
 
+.visual-fix-container > * {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .image-gallery {
   display: block;
   width: 100%;
@@ -244,9 +252,6 @@ img {
 .upcoming__title {
   color: #ffbb00;
 }
-.visual-fix-container {
-
-}
 .new__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -261,7 +266,7 @@ img {
 }
 
 .side-button {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: block;
   float: right;
   margin-top: 10px;
@@ -285,7 +290,6 @@ font-size: 14px;
 
 .info {
   text-align: center;
-  text-align: inline-block;
   padding-top: 20px;
 }
 
@@ -299,7 +303,7 @@ font-size: 14px;
 
 .info__tagline {
   color: #cdcdcd;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 85%;
   padding-bottom: 25px;
   border-bottom: 1px solid #777777;
@@ -317,7 +321,7 @@ font-size: 14px;
   color: #ffffff;
   border: 1px solid #252626;
   border-radius: 5px;
-  font-family: Open Sans, sans serif;
+  font-family: "Open Sans", sans-serif;
   padding-top: 7px;
   padding-right: 50px;
   padding-bottom: 7px;
@@ -325,7 +329,7 @@ font-size: 14px;
 }
 
 .button__subscribe--email {
-  font-family: Open Sans, sans-serif; 
+  font-family: "Open Sans", sans-serif; 
   background-color: #ffbb00;
   color: #ffffff;
   text-transform: uppercase;
@@ -412,7 +416,7 @@ font-size: 14px;
 }
 
 .footer__list {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   list-style: none;
   line-height: 1.5;
   font-size: 80%;
