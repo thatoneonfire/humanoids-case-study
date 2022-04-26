@@ -25,7 +25,6 @@ html {
   
 body {
     font-family: "Raleway", sans-serif;
-    max-width: 1300px;
     margin: auto;
 }
 
@@ -402,17 +401,21 @@ font-size: 14px;
 .footer {
   background-color: #222222;
   display: flex;
-  justify-content: space-between;
+  flex: 1 1 auto;
+  justify-content: space-around;
   align-items: flex-start;
   padding: 25px; 
-  max-width: 650px;
+}
+
+.footer__area {
+  
 }
 
 .footer__title {
   color:#999999;
   font-size: 100%;
   margin-left: 35px;
-  margin-bottom: 0;
+  margin-bottom: -5px;
 }
 
 .footer__list {
@@ -456,12 +459,14 @@ font-size: 14px;
   display: inline-block;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   
 } 
 .pair__button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .fa-brands, .fa-solid {
   color: #ffffff;
@@ -494,5 +499,20 @@ font-size: 14px;
 .home-page__footer {
   padding: 10px 0;
   border-top: 7px solid #ffbb00;
+  background-color: #252626;
+  width: 100%;
+}
+.home-page__catalog {
+  background-color: #535353;
+  
+}
+  
+.home-page__container--c {
+  padding: 25px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
