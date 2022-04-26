@@ -459,6 +459,7 @@ font-size: 14px;
   display: inline-block;
   display: flex;
   justify-content: space-around;
+  flex: 1 1 auto;
   flex-wrap: wrap;
   
 } 
@@ -504,11 +505,10 @@ font-size: 14px;
 }
 .home-page__catalog {
   background-color: #535353;
-  
-}
-  
-.home-page__container--c {
   padding: 25px;
+}
+ /* Container for all Sections? */ 
+.home-page__container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
