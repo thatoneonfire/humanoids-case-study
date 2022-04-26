@@ -507,6 +507,22 @@ font-size: 14px;
   background-color: #535353;
   padding: 25px;
 }
+.home-page__news {
+
+}
+.home-page__email {
+  background-color: #000000;
+}
+
+.home-page__read {
+  margin-bottom: 25px;
+}
+
+.home-page__new 
+
+.home-page__header {
+  background-color: #000000;
+}
  /* Container for all Sections? */ 
 .home-page__container {
   width: 100%;
