@@ -508,7 +508,9 @@ font-size: 14px;
   padding: 25px;
 }
 .home-page__news {
-
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 35px;
 }
 .home-page__email {
   background-color: #000000;
@@ -532,3 +534,5 @@ font-size: 14px;
   margin-left: auto;
 
 }
+
+@media (max-width: 1200px)
