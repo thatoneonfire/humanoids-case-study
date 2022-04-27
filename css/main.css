@@ -155,10 +155,6 @@ img {
 
 .main-nav {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex: 1 1 auto;
-  flex-wrap: wrap;
   text-decoration: none;
   list-style: none;
   margin-top: 85px;
@@ -208,7 +204,6 @@ img {
   border-radius: 4px;
   display: inline-block;
   padding: 10px 15px;
-  margin-right: 10px;
 }
 
 .button__subscribe--white a {
@@ -274,8 +269,9 @@ img {
   font-weight: normal;
   text-transform: none;
 }
-.side-button a:hover {
-  color: #535353;
+.side-button:hover,
+.fa-play:hover {
+  color: #cdcdcd;
 }
 .fa-play {
 font-size: 14px;
@@ -531,12 +527,13 @@ font-size: 14px;
 .home-page__read {
   max-width: 1140px;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .home-page__new {
   max-width: 1140px;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .home-page__header {
