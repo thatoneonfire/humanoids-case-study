@@ -99,11 +99,7 @@ img {
   padding-right: 12px;
 }
 
-.fa-twitter {
-  background-color: #25AFF4;
-  padding: 10px;
-}
-
+.fa-twitter,
 .fa-instagram {
   background-color: #507FA3;
   padding: 10px; 
@@ -145,7 +141,9 @@ img {
 .container__black {
   background-color: #000000;
 }
-
+.container__header {
+  padding-bottom: 10px;
+}
 #image__header {
   max-width: 350px;
 }
@@ -247,7 +245,7 @@ img {
 /* New and Upcoming Releases */
 
 .new__container {
-  max-width: 900px;
+  max-width: 1140px;
 }
 
 .image-gallery {
